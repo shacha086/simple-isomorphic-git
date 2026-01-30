@@ -22,5 +22,5 @@ const SimpleIsomorphicGitFactoryImpl: SimpleGitFactory = (
 };
 
 
-export declare const simpleIsomorphicGit: SimpleGitFactory;
+export const simpleIsomorphicGit: SimpleGitFactory = SimpleIsomorphicGitFactoryImpl;
 export default SimpleIsomorphicGitFactoryImpl;
